@@ -21,17 +21,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b1c522a203307f1eb48c921fc4e0422c03acca2a"
+    treehash = "sha1:413b5cb9130bb06768d0d4d6286b8a2ccfe67305"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:5fc58611396037d29b50b76d6b2c63669efbed96cb72403e8372c8170ab4a50b"
+        tarball_hash = "sha256:69e0038810a6b11f409911434115b82092c5cc985fd0f556356af9458ba3ba9d"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:b8dd1765fc1250ab41ff1ad3fa234cd63b629fde"
+    treehash = "sha1:d3837723739da0cb1a9b3e53807219bda82f49be"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4773fd69b27dbac88ef91c6e40579f8ff3332aeacc4fee43110ced0281d0630d"
+        tarball_hash = "sha256:fb85cb0e4e5b841c5fb94ec23c3ff412d78d3b23ccd0fbf5ec7294e6426d092b"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -46,17 +46,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:5670b857848ee4bd120cf4e8886dbab575ca7b99"
+    treehash = "sha1:552c249f9016daf7274905631514b3df41454684"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:90b3aadd556bfcf6fffbd77f466226d75b24c7da132b7644a5bd1f51774998e6"
+        tarball_hash = "sha256:57301059f8536df68b0377dd3011460f4e79defe1abda683bb14e6c9e1bab219"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-x86_64-linux-gnu.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -76,17 +76,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:2ebbb8aeae777978a2bc0352dec6f3f35c0eb852"
+    treehash = "sha1:c1e19e73df216e49b011e56d9d7431fa6c0b7dde"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d4306b8b6694a55d41f3e599963d8fd11270da7f75c74308571e9fd9518b7dba"
+        tarball_hash = "sha256:4c2be92ae4bc4628f9955e8c7d0de7ebf944d7f8fcd0b76c3d4081dd2a98be71"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-i686-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:ba2007865b465c874f0a5d62c0c2f528cf9aa1e7"
+    treehash = "sha1:b9813fec07830712a8db9cab11509488d6f1a9be"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:40a62ec6f1f9603f810cbf8585e76750cc291290531ccda10871704fe48d2029"
+        tarball_hash = "sha256:d27a0b37b3a6789baaa7d49f12ffb433afdf897df57dfea918092777dbf10a09"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-i686-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -101,17 +101,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:2ce90033cb04fe6974cc8bcfc6cee4e93222fba0"
+    treehash = "sha1:5cc8e00997b8aecb730f8c7b40f8d317ac479913"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:c2925a79458b628bd3965a4bc7401a1fa289e6a9f44fee2f2c0051e4c549c5b2"
+        tarball_hash = "sha256:e337a14aa932f4bf12b5e7b5f19dd8ac4aa35ee256b81ed0e86e4b23db603a56"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-i686-linux-gnu.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -131,17 +131,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:d8b97f75c01b90512796f092789f83e7c64b21e7"
+    treehash = "sha1:9ee6ff551866a94f372c3d25c1e920b0aefc2f86"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:3282c88dd482001e826909d28868d648ccc0e1b46dd67c7bf2eb3ab81486ee0e"
+        tarball_hash = "sha256:7f769f244d59f58f6c5f7ba56b6712df542561881b5111bad1723a699b55c880"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a34db2cc52141647811ee1383c87f3f66b7d9972"
+    treehash = "sha1:1c5035e332313844a10fc9ccfdf1b1474701107f"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c726dd52707548c2c1d3e49897909c47048aee7923b1a55a76c15b1d9c640496"
+        tarball_hash = "sha256:a0a6a7639b1a749ebf1e85b2e3f9783219794728f5ffe1e4d0caf7f77ce7666f"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -156,17 +156,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:75bc2dc95815059a66994ead1965dd73e4df222f"
+    treehash = "sha1:b874144d398402f53ff66b5eb5dd21f97015541d"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:119330a282f61566972d40c62f04ca01849b62b0013d3701b55fa019469fa730"
+        tarball_hash = "sha256:000e5667440efb2274398d9acdf0fdc2ba0368df2818a34095927b8ed57fea0a"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-aarch64-linux-gnu.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -186,17 +186,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c97cd6ac1ac6a1ac47da5441456d5a86d98883bb"
+    treehash = "sha1:bb8c6d6057ef9c2a9f72eaf73c2bb7a7f65b7ed1"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b85b4a31f9c9b2690e926f0c091a1919c494d8118a5a6d0968a633cd2358c37d"
+        tarball_hash = "sha256:d4bd05cacc8f7dc09bd2613ae83f8474e91536c82ce7abf111ed97e24cccb65a"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f2272c0abd7321abc28a12d471312a6ac9c6d967"
+    treehash = "sha1:a22460ced56044415a8f655429dcfef9e24bc94a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:267e1424865e096d9fc23ab676f0005c31f4d5edeacd126a7a82d70e9bf7351f"
+        tarball_hash = "sha256:0b80295f5623a26408d631904d63fed3016ffc0bb4f133ead9a3c2458adf5142"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 
     [[builds.products]]
@@ -211,17 +211,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:5e9eb98a7f3c4596554c1cd1573c28435fce8236"
+    treehash = "sha1:da21c10406df38f52917935b788854a17d170fb3"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6894abbcae4d85145400229ac1faf68263767149350245de308b0432122965c3"
+        tarball_hash = "sha256:639d4e268866f2f31c44ad63b46152272534d85b49e07b5e421cb7c5b30d2397"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -241,17 +241,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f76a028cda3e44393b2b4645e236305bd4ca1d30"
+    treehash = "sha1:76c28d36df0f7364159ac564cae84fa42751fd51"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:74fcbb361ab7750ec48f3c264f31d1f5d73234991a7bf377d9baa27c7fe42b2f"
+        tarball_hash = "sha256:36315fb76a31e158ecc6c263c554568e342c43481a70a005b1d9a08b792d3b20"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4dc5997e82bfec3231635672ae55a09665e0fe92"
+    treehash = "sha1:d00c112d87d4c04a0a015a3fc35586c10e7ca3e0"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:ee640b3a3c7ef14a31e4197a9036ff176923ca6ed48a0e08cbe1ae27d534671b"
+        tarball_hash = "sha256:fb724a94ebdf26aa0729a0dca605f77f351660f565705b839313c8d1fab3eb98"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -266,17 +266,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:4b3299713dc7189994cbd2941d196c7294dda831"
+    treehash = "sha1:a4831f2e5ea0e3f4668213f06491890501ef196f"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:9c5d5207a02f9e9edc0059938a789578278179f6261d3ac1ef4daaa49c7943f6"
+        tarball_hash = "sha256:ce4795ca3ba50336b40311d4bfc0c628441c6234e195a1206e39331a63ba3026"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -296,17 +296,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:bf8172b149551d194ccb74e10b230560d5d8c005"
+    treehash = "sha1:4a09d005ac6a94e0199dfc36e67df213cf7ac650"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b611dadb0cea690fd1924b01a105ba454c45e267b206babd2a953582dff5b85d"
+        tarball_hash = "sha256:c6b4a6964e0e0a0b195f1ace1a0bb0c55588690da218cd7e432eecc78e10bcb7"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-x86_64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2903ee0a934212d3232b815a048677b7b2fad54d"
+    treehash = "sha1:a5ce3104747af024a9379e837e0ad4cebe8cb215"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:33ac0d8f3b816f5e7affa44a0cad94ee44b0bb4854334f7576083abdd09a743a"
+        tarball_hash = "sha256:d5dfa539deeab070d954038b7788c97849691568a4ab8109f5adf97bafb64563"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-x86_64-linux-musl.tar.gz"
 
     [[builds.products]]
@@ -321,17 +321,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:9882f436bd3de83cb2322be32bd1b1973e4e80f1"
+    treehash = "sha1:61f44ab16c1b10a75e6b8d471c4bb3482d8e8f5c"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:8fd2fe55b93517dfe987e64d3a8203a71e74091378ec5f74db1b29d34082add5"
+        tarball_hash = "sha256:f09ddf89efe1f511afa0187321053e06bf0d6efc780e5567c11cb61272e76b7e"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-x86_64-linux-musl.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -351,17 +351,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:357e285c92a20173ef4b0469059f4517afb951bc"
+    treehash = "sha1:6a2c3bff6a78d3b0be6cb4587a31e2e24bd6f46b"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:12f8b943107e5221af42d712181a2ae9997d2a091d9ad39ab2a839334a15dc1d"
+        tarball_hash = "sha256:3d28f88a9c4034e29931d7e9a2a31a50cbdf18eacadcce610c4db249d0e6e0d4"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-i686-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:5de80f1697a25dbabe3bae82ea3dc91d3d56b00b"
+    treehash = "sha1:a3e71c42bfd1ab60b041cf94acb9d7344b265895"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:0565d1afeb5b2c3bef4ddf031ee765691117b4006c43faee5ffd4e512d27c07d"
+        tarball_hash = "sha256:99661c40c668a7f7ee14f2fcd422ecd0ffefc684d777d573b5dee3c48a973b65"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-i686-linux-musl.tar.gz"
 
     [[builds.products]]
@@ -376,17 +376,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:b7b1d571ff6d8ee3a0637da3270b0c14c3848a76"
+    treehash = "sha1:88e1cb2547cf83d490c1082f3d9d1363eca66963"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:2e9f527e003996f0ad31f59828184f4482603b656c725652ab753678030d1a1c"
+        tarball_hash = "sha256:ef0c36d4a5a0ea3225828ee8bc651d10d54922373487876006f5495e5e635b64"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-i686-linux-musl.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -406,17 +406,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:e95e054835ad383fd9902102b6f04443554c2718"
+    treehash = "sha1:b8131396cee7ce352b3532a53c286e7e13a07390"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9557c8b0deb2919e89fc06bd035e0f40ea0efa1a11ab2f7ad97de9fe68146998"
+        tarball_hash = "sha256:91108cc91d21e78c4c8380a29f092fdb26f84004c8294dce419c6abf0f09df34"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-aarch64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:e4310f7c1bdd2cb2a70af6f3a06124f402e4d470"
+    treehash = "sha1:a90c3db17024662f421670a5575ada71079b1b31"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:bc84471063b4dab70230c54cc24cf219496f8097901b4e5ce21d6e00963cafc5"
+        tarball_hash = "sha256:de4f6c8827ff320530c36f975eadcba4f419baba12db3ce59c7e170f634ba312"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-aarch64-linux-musl.tar.gz"
 
     [[builds.products]]
@@ -431,17 +431,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:00f4ced7d9c82b4cb04a7540cc07f49c725424ba"
+    treehash = "sha1:500be08e7c71b9b5cd760f74c232622f2e13d258"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ac590216ff277dd435c391c38767e9218da9a8102ef9cd0c2ffe4653bd9399d2"
+        tarball_hash = "sha256:40d1d910d5b71bf3702c1cfe17e904169801e24d204f1d96c1875336ce7ad4d8"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-aarch64-linux-musl.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -461,17 +461,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7bbe65c86f220ca53663f5c900c763800aad8c28"
+    treehash = "sha1:bb6eb8247177434466a6d4393d228cc07fb25ea5"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:5e58eb287b4e71da9e701a97de9546da11cde5b598307f278246c36acd16b8e8"
+        tarball_hash = "sha256:620b296b4d25902380285bafec1f8832d188497a0d75324bda2dae8ab690b1e6"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:56b164e3e219f372a32590737ef84a938aa0e2cd"
+    treehash = "sha1:4b5d4810a42f00691fc603126f6c2949c9d4ea89"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c8c644440b54b7a3728a03d6d0b80ea0cb1ccf22a0256457395fad96ee0ec65b"
+        tarball_hash = "sha256:60ef0d3e168b49cbbcb41e551308ccac486d80a8042e8659d52819a488f2871b"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 
     [[builds.products]]
@@ -486,17 +486,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:0d32f419adcb6aef5fcc90036ad1af336c67c65a"
+    treehash = "sha1:8bc09706e5cd660b13a71f873b051b5b95662ed4"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6c4a50ae646341f1751d7baf2edb1ac497d625162b4e73812a685ab943a51244"
+        tarball_hash = "sha256:59c8f4e641bf2d3573b4abe33b160e7592a904e98c24f93e6c6484d95b3b7b67"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -516,17 +516,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6afc7996ea0b79195bf53803940403954467eb90"
+    treehash = "sha1:51da7bded5bd33415ebf5826f26d91f7a0af1dc9"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6833d963fd64f11b5fd688ce44768e6093079fbf787a30c838a909a23e42dbd1"
+        tarball_hash = "sha256:4863c956c3edb79fd8190e60d7fb1ad9446c88d82987899b4594c9f5a0989e0d"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:df77b85b093e231f26cfc14473f9f400c80e935e"
+    treehash = "sha1:9d201c0de2e04b0a04dd75062680482864942eb5"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:6c7876462ad858a7ed6764303b6b0c0c42fcf8dc4a10bd919a3cad6dfb329679"
+        tarball_hash = "sha256:feff5769e1de5f9d81f3dbae7b6492e83a9d30e76f8a3f8ffa8de4a6351ed63a"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 
     [[builds.products]]
@@ -541,17 +541,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:c6d9b8adb51d503fecc63af2f4bfb6ee123057f7"
+    treehash = "sha1:3829ed8dbfd32fa1653b7f364ddfdcefcd2029d5"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:31b014a8bfff45fd27f23130ace552bb5b9875effff825d79ffc3bbe06d1418e"
+        tarball_hash = "sha256:fc4ea9f2a807014be69b54c0d54a3b8a93e90fde05b44e6726a0b64af6a01755"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -571,17 +571,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:4c9286d278acb2d69b46bfc9d9133ee6afb8889c"
+    treehash = "sha1:ff6f641b99470254bcfcbfc46afffcf420f55806"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:2731c7d692efe51253f280ca83d26f918acee97303fdfd3644f6ad411e2e72e0"
+        tarball_hash = "sha256:240982e11832a34b954302be22d2a5572342946cad76f25a59934fd91c8e5a46"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:8a5af673693272f64953535c069ec9537e9b64a6"
+    treehash = "sha1:b91098a2f1c557a54784b56a6bc7752af444c870"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c45c712c060e8db88352eac95f1a4492d401d3ed490b6d913fefaf83b489dbde"
+        tarball_hash = "sha256:29d0900ffe2dd43dd56e7e83b05015fea292ea7e4946e660b61dd2a2e32cf5b4"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
 
     [[builds.products]]
@@ -596,17 +596,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:087eade6f0f6d567b66960eed370644f129992ab"
+    treehash = "sha1:388490b93bc5f9453c55a61b81f90884ca1aa040"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:dc73c95e4387d4007a574c7d614d069ed9e84ab948e896674f19804dc2ad5e5c"
+        tarball_hash = "sha256:ed8fb5b0ebea7035d6bc78104158db4f5ae27993a5ed5da894d609706ac875b7"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-x86_64-w64-mingw32.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -626,17 +626,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7434232d81bd5253a63c79a4a413eb139c876aa7"
+    treehash = "sha1:f3f2a2ae806a8e830997fe2df374974a2b3be336"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:99581699d708ec11f0a8563a4281bc4c12ca5747481ecf1d1bf6b47686a68e75"
+        tarball_hash = "sha256:d902784f48a3caa92ab4faf1a688eb13ec257929bbca95cdbc50d6556dcdc3de"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-i686-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:47d410a649bf6dac201f3557b621bc616be99a9a"
+    treehash = "sha1:be9675fbef9dc0ec78f48cfb439e7c0742964250"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:42fb32320f67dc68779c6ee00c5eccfff6623ac743ac35c1b8fb3a0e7dba1391"
+        tarball_hash = "sha256:65a072b65276263293175173386eaecca67743e058f53fe9d1bb83d75230c82e"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-i686-w64-mingw32.tar.gz"
 
     [[builds.products]]
@@ -651,15 +651,125 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2"
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
-    treehash = "sha1:a218efe91088b4350378a897fea2fedd883d9538"
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:f05309d0f430426bfe29f1e5bb88df9a5aa2d369"
+    treehash = "sha1:ddd8e20f9e981005e1fb5dc323b79cf475ea5a56"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:904da80a310973aed26d9261f59a5650c1685507f811a4651dd019be81dbfd2c"
+        tarball_hash = "sha256:a3b34bbdcde99c6abeea029bcbb7e134270ac8e26e2a2b755baaa3cb6e5ebc52"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-i686-w64-mingw32.tar.gz"
+[[builds]]
+name = "libLLVM"
+platform = "x86_64-apple-darwin14"
+lazy = "false"
+src_version = "17.0.6"
+
+    [[builds.licenses]]
+    license_text = """==============================================================================\nThe LLVM Project is under the Apache License v2.0 with LLVM Exceptions:\n==============================================================================\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n    APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n    Copyright [yyyy] [name of copyright owner]\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n\n---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into an Object form of such source code, you\nmay redistribute such embedded portions in such Object form without complying\nwith the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 (\"Combined Software\") and if a\ncourt of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of\nthe License, but only in their entirety and only with respect to the Combined\nSoftware.\n\n==============================================================================\nSoftware from third parties included in the LLVM Project:\n==============================================================================\nThe LLVM Project contains third party software which is under different license\nterms. All such code will be identified clearly using at least one of two\nmechanisms:\n1) It will be in a separate directory tree with its own `LICENSE.txt` or\n   `LICENSE` file at the top containing the specific license and restrictions\n   which apply to that software, or\n2) It will contain specific license and restriction terms at the top of every\n   file.\n\n==============================================================================\nLegacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2019 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n"""
+    filename = "LICENSE.TXT"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a9f6a588f82c37f04cbbd699eae39fab7a44c73b"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:0473344fae9357df72546c5d90cc314477d7c5013ece674475799ebf63f1c03e"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-x86_64-apple-darwin14.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:d6a1024060e05573824e41f1992795861e0a3e06"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:c545d33c5c5e4564627c5856966f28c7f3297405dda6a4b5e8b93d8a6c0d4abd"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-x86_64-apple-darwin14.tar.gz"
+
+    [[builds.products]]
+    deps = ["Zlib_jll.libz"]
+    name = "libLLVM"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "@rpath/libLLVM.dylib"
+    type = "library"
+    path = "lib/libLLVM.dylib"
+
+    [[builds.sources]]
+    treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
+    url = "https://github.com/llvm/llvm-project.git"
+    [[builds.sources]]
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
+    [[builds.sources]]
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
+
+    [builds.artifact]
+    treehash = "sha1:d968b75502df50e65a291fe1d54681c0910fdef9"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:02708a0def31723db97520168b2210f9282d29a446464c9e5fbf7fa9777502a6"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-x86_64-apple-darwin14.tar.gz"
+[[builds]]
+name = "libLLVM"
+platform = "aarch64-apple-darwin20"
+lazy = "false"
+src_version = "17.0.6"
+
+    [[builds.licenses]]
+    license_text = """==============================================================================\nThe LLVM Project is under the Apache License v2.0 with LLVM Exceptions:\n==============================================================================\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n    APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n    Copyright [yyyy] [name of copyright owner]\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n\n---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into an Object form of such source code, you\nmay redistribute such embedded portions in such Object form without complying\nwith the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 (\"Combined Software\") and if a\ncourt of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of\nthe License, but only in their entirety and only with respect to the Combined\nSoftware.\n\n==============================================================================\nSoftware from third parties included in the LLVM Project:\n==============================================================================\nThe LLVM Project contains third party software which is under different license\nterms. All such code will be identified clearly using at least one of two\nmechanisms:\n1) It will be in a separate directory tree with its own `LICENSE.txt` or\n   `LICENSE` file at the top containing the specific license and restrictions\n   which apply to that software, or\n2) It will contain specific license and restriction terms at the top of every\n   file.\n\n==============================================================================\nLegacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2019 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n"""
+    filename = "LICENSE.TXT"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:21a9505cdfb421350a98335cc9fc0aeecd0f49a9"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:db8f093e878672a14ebf11d8be91deb6558337809a01c9bdc9673a9afb1dde6a"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-build_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:b41524f44a55ea3e1a8d17857ee3f513600c2df7"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:c816a4117028811dde04a861f886138172d08c6e89d612167c254eccf7a18882"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-extract_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
+
+    [[builds.products]]
+    deps = ["Zlib_jll.libz"]
+    name = "libLLVM"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "@rpath/libLLVM.dylib"
+    type = "library"
+    path = "lib/libLLVM.dylib"
+
+    [[builds.sources]]
+    treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
+    url = "https://github.com/llvm/llvm-project.git"
+    [[builds.sources]]
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
+    [[builds.sources]]
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
+
+    [builds.artifact]
+    treehash = "sha1:e224da3342a07a129f82505c191844263cba10f2"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:7a6ac9eeb8eb137a8c4536976d316b342e32c35752a51abd703c520554cb0237"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7/libLLVM-v17.0.7-aarch64-apple-darwin20.tar.gz"
