@@ -1,6 +1,6 @@
 name = "libLLVM_jll"
 uuid = "8f36deef-c2a5-5394-99ed-8e07531fb29a"
-version = "17.0.8"
+version = "17.0.7"
 
 [deps]
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
