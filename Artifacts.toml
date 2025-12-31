@@ -1,21 +1,12 @@
 [[libLLVM]]
-arch = "x86_64"
-git-tree-sha1 = "b4dcedc8ef2a0136edfa5e50a7b205e22b8f07ac"
-libc = "glibc"
-os = "linux"
+arch = "aarch64"
+git-tree-sha1 = "25efaa58d1df31073088b294f9be0f255a1e9444"
+os = "macos"
+os_version = "20.0.0"
 
     [[libLLVM.download]]
-    sha256 = "281b90dd08e74018dcaa1d318aab18218a1ce6af7f6b2f1742250f29ba76ec2c"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-linux-gnu.tar.gz"
-[[libLLVM]]
-arch = "i686"
-git-tree-sha1 = "24c429bc2cabd57210e63b1b669e22350ce31da7"
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM.download]]
-    sha256 = "4156f8dca2a3d5ccac268ed63ed2ce5678067d98a4d7ae73ed7e5299ddbf3061"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-i686-linux-gnu.tar.gz"
+    sha256 = "0c089ee8696825a441c66bb8bd549f0c6572ba740b6676552dd666edec8e9374"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-apple-darwin20.tar.gz"
 [[libLLVM]]
 arch = "aarch64"
 git-tree-sha1 = "62d16a6625efd1b4e6a4554fa05fb0a077253220"
@@ -23,45 +14,8 @@ libc = "glibc"
 os = "linux"
 
     [[libLLVM.download]]
-    sha256 = "0582b9ee34a978415fdc862c39dd8a61a713d4a5e48c6161483fa19264eb5c33"
+    sha256 = "13cca4b4119678fdf65c915465a9446b8aa9ca426bb5f63344799a40f4d3a1a5"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-linux-gnu.tar.gz"
-[[libLLVM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "880285e882563e74001749cae85ac922ce6c4c4a"
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM.download]]
-    sha256 = "ff9eba016541cb12e1f184f69393e54b3a04ec9998446fb8495f59bc971ef533"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
-[[libLLVM]]
-arch = "powerpc64le"
-git-tree-sha1 = "7406f70ff3a53b8c582aedd8b9035584172544a8"
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM.download]]
-    sha256 = "21c870563d5f344766661b2d34e49d2263207affaf37fb15b89d489226c8c90a"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-powerpc64le-linux-gnu.tar.gz"
-[[libLLVM]]
-arch = "x86_64"
-git-tree-sha1 = "c09e266bb3964e5b53fa52643bba6e54689e2e59"
-libc = "musl"
-os = "linux"
-
-    [[libLLVM.download]]
-    sha256 = "3851241fe3b8064528b85ef57cf6351148ebf10d45fda4de3d6aeba53609d60e"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-linux-musl.tar.gz"
-[[libLLVM]]
-arch = "i686"
-git-tree-sha1 = "a93e0c608dfe3dd7ebffbe102bbf6085f39e476a"
-libc = "musl"
-os = "linux"
-
-    [[libLLVM.download]]
-    sha256 = "32a3ad457ea5b19275c5d0ba1c0fe0d83d88a6212ea18d6e274834da3d98d0d5"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-i686-linux-musl.tar.gz"
 [[libLLVM]]
 arch = "aarch64"
 git-tree-sha1 = "a4c679bf022fb2cd9f722db7c9bddbaa5597f3a6"
@@ -69,8 +23,27 @@ libc = "musl"
 os = "linux"
 
     [[libLLVM.download]]
-    sha256 = "a3e2d3b15adbe2af17a2c1bad9a55563c0974a5df3c4be4d488fcaca7a55a9d1"
+    sha256 = "7c4a84430827d8bfef76538818c5b9c32d0aaa759f194df7b99b9d64d0daa389"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-linux-musl.tar.gz"
+[[libLLVM]]
+arch = "aarch64"
+git-tree-sha1 = "7acb8cc7c331779da74cd87a3201976e7b043d75"
+os = "freebsd"
+os_version = "14.1.0"
+
+    [[libLLVM.download]]
+    sha256 = "a816217876047fab3360fcc51b7d5465f1e5ddaf8cdd4929c7477e6422aa7d51"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
+[[libLLVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "176fa95c40cfbc76e9308e423a4492a0b2a03fac"
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM.download]]
+    sha256 = "f61e7ea1e9792f0e1acbcb2644d17a598df4a5ec6547cb8d531c26ea5a808dcc"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
 [[libLLVM]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -79,8 +52,18 @@ libc = "musl"
 os = "linux"
 
     [[libLLVM.download]]
-    sha256 = "c2349ae8e9ce32ebefbf2f019f93822330045c96c987119ace31208374ba5381"
+    sha256 = "4fa759b77d3e54397024f02470c14afc5f2dd7e49f3b154c1f64df8af3c3f1c8"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv6l-linux-musleabihf.tar.gz"
+[[libLLVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "880285e882563e74001749cae85ac922ce6c4c4a"
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM.download]]
+    sha256 = "c1735f06bc88d83ba086eba6cec8029dc04dd9c64fb8970fd19fe94b566c97e0"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 [[libLLVM]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -89,24 +72,43 @@ libc = "musl"
 os = "linux"
 
     [[libLLVM.download]]
-    sha256 = "bc5c6b34a5f699df389924f8d4f40fbce10b04d280616d79999694bf512bf26c"
+    sha256 = "bd368244b97083e24e21d26e3a7957eda26deb9a796fcfceaedcc8f30565f419"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 [[libLLVM]]
-arch = "x86_64"
-git-tree-sha1 = "388490b93bc5f9453c55a61b81f90884ca1aa040"
-os = "windows"
+arch = "i686"
+git-tree-sha1 = "24c429bc2cabd57210e63b1b669e22350ce31da7"
+libc = "glibc"
+os = "linux"
 
     [[libLLVM.download]]
-    sha256 = "ce6bae12e0742ef4ac463bf3abca333d060f20d076f79495820b4e667481298d"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-w64-mingw32.tar.gz"
+    sha256 = "dd9d281f82bfc5a4fac321813e0d7d50b4a4f1f3fc10dea6284faf8ca235149f"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-i686-linux-gnu.tar.gz"
+[[libLLVM]]
+arch = "i686"
+git-tree-sha1 = "a93e0c608dfe3dd7ebffbe102bbf6085f39e476a"
+libc = "musl"
+os = "linux"
+
+    [[libLLVM.download]]
+    sha256 = "abdfcc378de06208ef7fefb7a49f7f81cb17e4c57e7c1c43429eb71620e62b62"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-i686-linux-musl.tar.gz"
 [[libLLVM]]
 arch = "i686"
 git-tree-sha1 = "ddd8e20f9e981005e1fb5dc323b79cf475ea5a56"
 os = "windows"
 
     [[libLLVM.download]]
-    sha256 = "1f80db01f334454a46f848ac7caa55033f1588cd8a1a34b0b1df138e923cbf41"
+    sha256 = "af4fa3b99c039bd29eac857126664b26baf98be367dfe703355749677843ead5"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-i686-w64-mingw32.tar.gz"
+[[libLLVM]]
+arch = "powerpc64le"
+git-tree-sha1 = "7406f70ff3a53b8c582aedd8b9035584172544a8"
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM.download]]
+    sha256 = "8fe913002805f020fcd819fe636459e352763bb09238070a4acd119336da4bd5"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 [[libLLVM]]
 arch = "x86_64"
 git-tree-sha1 = "95771c5d38e7c7930aed2619176648440c7a6d51"
@@ -114,356 +116,386 @@ os = "macos"
 os_version = "20.0.0"
 
     [[libLLVM.download]]
-    sha256 = "a2d3594e2a301ab58e23e7b47c3add40378ff193d891ba50e4593d9ea5b37fd1"
+    sha256 = "6347363c408aa06b452e715caf8f04b1c3acf8eaa1d68b644f7f0e7228e27cae"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-apple-darwin20.tar.gz"
 [[libLLVM]]
+arch = "x86_64"
+git-tree-sha1 = "b4dcedc8ef2a0136edfa5e50a7b205e22b8f07ac"
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM.download]]
+    sha256 = "c5022b7f16dfcecabf7b500896703b5a1d5d95a798f1c21424bf5d4f7a98db14"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-linux-gnu.tar.gz"
+[[libLLVM]]
+arch = "x86_64"
+git-tree-sha1 = "c09e266bb3964e5b53fa52643bba6e54689e2e59"
+libc = "musl"
+os = "linux"
+
+    [[libLLVM.download]]
+    sha256 = "2fa8c417c858a5f7869d99d89847dcd9b6aecee1374ef86f25fc80f4e5b34d45"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-linux-musl.tar.gz"
+[[libLLVM]]
+arch = "x86_64"
+git-tree-sha1 = "8e18525faa4f1cbe9becf3eddb79e85d7eedc8ed"
+os = "freebsd"
+os_version = "14.1.0"
+
+    [[libLLVM.download]]
+    sha256 = "46bdeaef4b452fee555e8056cb5fc676f0108fc85e11097640242f32119808da"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
+[[libLLVM]]
+arch = "x86_64"
+git-tree-sha1 = "388490b93bc5f9453c55a61b81f90884ca1aa040"
+os = "windows"
+
+    [[libLLVM.download]]
+    sha256 = "e67d7ec9632223676b3e7bd9e28318eb10cc29eacb4ca8e324f06e73b5186ff4"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-w64-mingw32.tar.gz"
+
+[[libLLVM-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "f31224986b96965ccb58e04ed9e18d02781d26d7"
+git-tree-sha1 = "bb5f18674842a1fbe651aa0a167f81eb70fa0d46"
+lazy = true
 os = "macos"
 os_version = "20.0.0"
 
-    [[libLLVM.download]]
-    sha256 = "d51556dbbc6bd14fe6e9e9c6172b068b289478c8280f04f7026d457a86839d69"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-apple-darwin20.tar.gz"
-[[libLLVM]]
-arch = "x86_64"
-git-tree-sha1 = "53aedf30fbb2402c629df39ccac931d2e6849954"
-os = "freebsd"
-os_version = "14.1.0"
-
-    [[libLLVM.download]]
-    sha256 = "7e3899600217e8dac110dbd957adc6f4f38bee61535e8029099748d62c7bf9c9"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
-[[libLLVM]]
-arch = "aarch64"
-git-tree-sha1 = "b97878a20f28993a0773bf5860c78fdb6f6d6ee4"
-os = "freebsd"
-os_version = "14.1.0"
-
-    [[libLLVM.download]]
-    sha256 = "e3017fcf183aa26882e9752e5de691b0e250054b2b4dc46666713ba3c608df6a"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
-
-[[libLLVM-build_log]]
-arch = "x86_64"
-git-tree-sha1 = "9569a99a5a0d064cd61d0f8e058cc960ed513c4d"
-lazy = true
-libc = "glibc"
-os = "linux"
-
     [[libLLVM-build_log.download]]
-    sha256 = "a3be7de050c3c7eb66cdb31a481e494ad72f718449f6c15e72b6818eab699b44"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-linux-gnu.tar.gz"
-[[libLLVM-build_log]]
-arch = "i686"
-git-tree-sha1 = "a7a96f696334991d3f9e6b609e4370df969c4a5e"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "488167f41cb00864361d973a04c4c3132592b0f1af1438fc34cadb5cd37c81dc"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-linux-gnu.tar.gz"
+    sha256 = "3985520413aea72889a7e2433398deb6a469b397ac138aae243874a75a683642"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
 [[libLLVM-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "0709ae5f1006dcfc70fa50951527c09a01f4fcd3"
+git-tree-sha1 = "6d8b798cab7d611012ae406d538be85be4b116c0"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libLLVM-build_log.download]]
-    sha256 = "f372440189353fd6b0aa346de97f6c995a6b9392fb21e9a91305aa739ae07cbc"
+    sha256 = "ac8e5688d34435465f74bf9184fedcf258c7d96f8abc235e3fe99c6b26cb19f7"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 [[libLLVM-build_log]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "c857b3d0d25acb60a34dcd77941ee1325ab9eb06"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "7a5744cb7dfc327ae7dc00874c9210b46a346d2e46c2cc87f432e4edc7ea55e7"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
-[[libLLVM-build_log]]
-arch = "powerpc64le"
-git-tree-sha1 = "49a8bb7b6795398e0a51bce67716c7064d4f7c99"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "6e8f6d50460092e071d107d13ee55e1dbcc8c2b69ac0cd1302b74210d82b656d"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
-[[libLLVM-build_log]]
-arch = "x86_64"
-git-tree-sha1 = "0fa44025c003b10b78c4cea2e0319101da128da0"
+arch = "aarch64"
+git-tree-sha1 = "7f7c3891a342521fae6c5ae1d269ac1613ead96c"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[libLLVM-build_log.download]]
-    sha256 = "5b4b6621c457a7b891c3882dc93ae221689dc85a6ed9a7b3c46d4c67ac48a7d8"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-linux-musl.tar.gz"
-[[libLLVM-build_log]]
-arch = "i686"
-git-tree-sha1 = "9ed3475f205982c97348f42dc0f9b7c62dc8e768"
-lazy = true
-libc = "musl"
-os = "linux"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "cf35acc9732d90d583821c6c27dd18f72d9ad72d8dab89c5a09ec4ed3271dfef"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-linux-musl.tar.gz"
+    sha256 = "30999d739120fda9777e708c83049dbc277d1ad3efa627e428e373573d535c9d"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-linux-musl.tar.gz"
 [[libLLVM-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "70dd3149e52ebdf65f96f455032a0acddcfed9c2"
+git-tree-sha1 = "a372d075aa0d090764a6718e6df16eef073e0483"
 lazy = true
-libc = "musl"
-os = "linux"
+os = "freebsd"
+os_version = "14.1.0"
 
     [[libLLVM-build_log.download]]
-    sha256 = "7fc00af55ee4fe572eb64bbf736a5d798e50d6760be0652b7118bd0250c2ac49"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-linux-musl.tar.gz"
+    sha256 = "160deb56909cc571b08bd4046d10dfb18611b2f16f0bf3ea4db6c59548b16369"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
 [[libLLVM-build_log]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "66c6b1318056a9cb90e9526273432c06f8cb5a9a"
+git-tree-sha1 = "78972921448c3dd36c532126964073d69185cc8b"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "4636cedad24c922e2fb2acd5ec3323fdaec11da3c72b86ed4eb5d08a15c0b215"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
+[[libLLVM-build_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "0b9cf404f56ed32b0ebe50ae18a6181aa0a726fb"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[libLLVM-build_log.download]]
-    sha256 = "e9a904a81a503365bb6ee79ae0496be5bb3ee2e4e7534137cd6dddbc1cbdc50e"
+    sha256 = "53e4f55b6ed1643f49e3f0d026a0993c650cb8ad34bf15930c8aa75c04c9fb70"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 [[libLLVM-build_log]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "5da148c93733e936904432747a415cc9e3c12f8e"
-lazy = true
-libc = "musl"
-os = "linux"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "6aa0f6dbaf82260757f6071576c32dc558d4f15e387447d6a10fe8fcc29aab56"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
-[[libLLVM-build_log]]
-arch = "x86_64"
-git-tree-sha1 = "383ef8e43849bba9a8d84e4522438f29e4ff1232"
-lazy = true
-os = "windows"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "650f98b02067eea7585584751d2bd4dd33db7cbd74b74606451b411e2185e3e8"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
-[[libLLVM-build_log]]
-arch = "i686"
-git-tree-sha1 = "7bb61d180946f0bde8cc1625b340a5888346df0e"
-lazy = true
-os = "windows"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "63ebb7b7fb4d4c96d41601d8691fe64237e9ede06e1dd5bd9b4114d71c0e4cdb"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-w64-mingw32.tar.gz"
-[[libLLVM-build_log]]
-arch = "x86_64"
-git-tree-sha1 = "38f6f2bc39f99ad240164aa7949fe9b2b8470639"
-lazy = true
-os = "macos"
-os_version = "20.0.0"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "d7d31bb20dfeabf9db2584ce9f4cf47617ea074f1a4ee30a16af229fe2f4ef73"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-apple-darwin20.tar.gz"
-[[libLLVM-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "04d41f4a23f6dae60fe8eaa5073fdef07183ad25"
-lazy = true
-os = "macos"
-os_version = "20.0.0"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "3451c314647aa82875c53226c8aeacf06a1577aecabac2041cc1fe545ef045ad"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
-[[libLLVM-build_log]]
-arch = "x86_64"
-git-tree-sha1 = "4264e8371f61ebf42690b8d1b8569d7201036f6b"
-lazy = true
-os = "freebsd"
-os_version = "14.1.0"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "37e8ecfa941e54fc95a9de96249dddad02c9406c352c70ede4fd3f8eddd1655b"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
-[[libLLVM-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "307b4b7bfcd37be27736d19a1fb0b95cb9865f32"
-lazy = true
-os = "freebsd"
-os_version = "14.1.0"
-
-    [[libLLVM-build_log.download]]
-    sha256 = "8f421e4cbfafa9a8972943e577eefdca0fe4928b31bd5dc936138703338b344d"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
-
-[[libLLVM-extract_log]]
-arch = "x86_64"
-git-tree-sha1 = "3af2cd56b066eb2cb3b156a1735b6d4c4fa9f4b3"
+git-tree-sha1 = "0c78c8736ebfd3fe117381aa668d84a80f4e93a2"
 lazy = true
 libc = "glibc"
 os = "linux"
 
-    [[libLLVM-extract_log.download]]
-    sha256 = "663c6673aa3b6eb20fdd09a35fe1adf006a17f8dfa6b441253e5fd78435518f8"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-linux-gnu.tar.gz"
-[[libLLVM-extract_log]]
-arch = "i686"
-git-tree-sha1 = "2162615a37b70337fe5862099e60d386e983f3a0"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM-extract_log.download]]
-    sha256 = "91ebf77f77328d4d7ba7f5446ece2feee3d2ec8c810a5d65e16aeba7c2831421"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-i686-linux-gnu.tar.gz"
-[[libLLVM-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "a75d24802114eda6ad1430c33b7cdd94be2b09e3"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM-extract_log.download]]
-    sha256 = "3cf3869de224c49e3c4ef6f74de69d4bd4e42c4ed9e992fe4767b4c5c3211233"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-linux-gnu.tar.gz"
-[[libLLVM-extract_log]]
+    [[libLLVM-build_log.download]]
+    sha256 = "449c92821e6b850fa0f23420b7589ae37f023fbf014eebb6497868c88615da69"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
+[[libLLVM-build_log]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "97492fc79f7ad0c739acfe1b691ca3c71a49b05b"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM-extract_log.download]]
-    sha256 = "e1c0f4475fb4cbd66f64b8c80012e027985230e90cd494788177c888492e7c3e"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
-[[libLLVM-extract_log]]
-arch = "powerpc64le"
-git-tree-sha1 = "16d223143d8f5cbd0d9e3520c25619ec9234068a"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libLLVM-extract_log.download]]
-    sha256 = "78ca2bad577caa62dc16639b06ff665f8302c127994c30914803d1e409121a94"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
-[[libLLVM-extract_log]]
-arch = "x86_64"
-git-tree-sha1 = "2aea02c174008c19d49fb5492860a583cb79d1fc"
+git-tree-sha1 = "eb9fc08f689eb5f53772b634e797990f69764b3e"
 lazy = true
 libc = "musl"
 os = "linux"
 
-    [[libLLVM-extract_log.download]]
-    sha256 = "1b8d1b28b3c18a9b61d3bb67e63091af4c1f05c3b788bdf3560fe6a84ee9b458"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-linux-musl.tar.gz"
-[[libLLVM-extract_log]]
+    [[libLLVM-build_log.download]]
+    sha256 = "fbb6786684014b1333a1c057e6d4495dee03e160d868de78d27cb8848fcbff27"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
+[[libLLVM-build_log]]
 arch = "i686"
-git-tree-sha1 = "aad8ce70d38f485555042131f99687bf89e9a587"
+git-tree-sha1 = "e212a07704c9a3100a948283d5aaafe682894456"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "6ce46277276be9b7b91eae7084ee9346dda4036c5b73c10f934d4a420d20a6d8"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-linux-gnu.tar.gz"
+[[libLLVM-build_log]]
+arch = "i686"
+git-tree-sha1 = "588740afe589d46e8c2b60eb7e7634b7b6eb25d4"
 lazy = true
 libc = "musl"
 os = "linux"
 
-    [[libLLVM-extract_log.download]]
-    sha256 = "f8d297c316adbac06165bc9fae3036b5c8a10166f4786041cd78a7d53c846845"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-i686-linux-musl.tar.gz"
+    [[libLLVM-build_log.download]]
+    sha256 = "9c1246d77d5184a0de954cb3174afc5705653a8c8884997569146dffc2549307"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-linux-musl.tar.gz"
+[[libLLVM-build_log]]
+arch = "i686"
+git-tree-sha1 = "7767250d7fd6c596565a013f7f345be59f6833a9"
+lazy = true
+os = "windows"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "9b74133382dd7071ff8b3de19c6512169cbd665c6e3403ef8cc5f7f11f334d9b"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-w64-mingw32.tar.gz"
+[[libLLVM-build_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "783e730a4ff1fb55a0df2fad2f9ac423243b7ebf"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "d8b4a730d1dadadd071cdd03efdf11c23fd7ae1d6c359a07fbf7b7fa56a1b781"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
+[[libLLVM-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "d3dde4f04781787f32d5b44906169683e0522a54"
+lazy = true
+os = "macos"
+os_version = "20.0.0"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "6f14f4796e34446c8e6e6b4e0e75127b59de7f2f2a20fcab0c1a4a003e17d864"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-apple-darwin20.tar.gz"
+[[libLLVM-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "32ed05134d7eb71847551c2d34746d709ee97633"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "dd0862a28e72e655f9eefcdd5d3b5226034b9b34af83500fa3193f59510ef5d2"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-linux-gnu.tar.gz"
+[[libLLVM-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "f2b68d599143aaa63aa729a0ee227bbb4de42f25"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "14e0e693576a8d9f8d929c9c3be33127b41b3114a1c199cacaabd97dd13fd84f"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-linux-musl.tar.gz"
+[[libLLVM-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "6727b7a2c744190bbb40aea7a65f7a43d8fde053"
+lazy = true
+os = "freebsd"
+os_version = "14.1.0"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "3f685a8f07109075a148702023175d4a1e2ade395839c30f9fd8503938578eb0"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
+[[libLLVM-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "1b29d654e54bfce55be77d76be477aa0223e7cba"
+lazy = true
+os = "windows"
+
+    [[libLLVM-build_log.download]]
+    sha256 = "697ab5be2a64429d6da910928f9e55a77b4d844f1e7d9adf6547933b82c7c9e0"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
+
 [[libLLVM-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "917a83bceae606d4113d986705f6dc37299409e9"
+git-tree-sha1 = "3eb45db8861a7b707883f0dc896b64e6a99c9c47"
+lazy = true
+os = "macos"
+os_version = "20.0.0"
+
+    [[libLLVM-extract_log.download]]
+    sha256 = "edded368dc69f3b7255a9ce09171af0b8051bf0e526030d4dd9b4a60c45c65c8"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
+[[libLLVM-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "788842c0148eea93966852fb0af950b423083bad"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM-extract_log.download]]
+    sha256 = "8229857e82d284c9681034c17aa37cecb1e4c809112f2b836edc236ecba8eee4"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-linux-gnu.tar.gz"
+[[libLLVM-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "2e12a361da953dfbe8e9ac5b66381bde63c42e2b"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "4d16d4a81e93ca9d1bc2c4a19a68fbb387aa19902451d3e7c1bc33fa364f1564"
+    sha256 = "be64e892fa380eab033a8390986e9d861513bb654217c0c19ad60a7b71a71064"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-linux-musl.tar.gz"
+[[libLLVM-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "d842236955779133fbbbcb71891b3fdd96e4f187"
+lazy = true
+os = "freebsd"
+os_version = "14.1.0"
+
+    [[libLLVM-extract_log.download]]
+    sha256 = "feff89261a2f8c178cce0ee441b5e417c7ea2944bc37142a2669ed2f2d20a93e"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
 [[libLLVM-extract_log]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "aba44ada7d0e107d9358ef43a9811d86f1c735c9"
+git-tree-sha1 = "4833c1e5add0ff455cc407338fcc2e2bef86285f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM-extract_log.download]]
+    sha256 = "958d1ccaa9ea1579109c468f9657d2cf495a3810fa8bfa8cda191e978e9dc951"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
+[[libLLVM-extract_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d32c8238cb87076b6584f98c84fe7fd66d782ee4"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "6d5b9f0d6afdf83e4343949d62e692af6a332f983cca1b96ca3e0c673ad3f826"
+    sha256 = "1bc61fb4d6aa2f9669ba0897057ebcc9e33314162942ba61d83f57ba675417ad"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 [[libLLVM-extract_log]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "35c5c7cbc5a2176967305e9a2f100bc2c98b48a7"
+git-tree-sha1 = "2d2c5ed6ab98c299f7db691400791b0a45dd0529"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM-extract_log.download]]
+    sha256 = "f00d55d44a366e474f8db14f77d92bbd4bb6be4cf6807c358a9bb597ff31c600"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
+[[libLLVM-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d388746fc69d477cad710c4a5904422ae244979a"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "b65558045d3ffb690ce305137aee5b28a69cafa2a28da1d857d578d332573a92"
+    sha256 = "adf28b1567f4adb6016beb021743b0852ca5c3a1cad488d019a19e9c2bdd0ad6"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 [[libLLVM-extract_log]]
-arch = "x86_64"
-git-tree-sha1 = "7c318b6127bb7066acd9e27f00ab83242c86e428"
+arch = "i686"
+git-tree-sha1 = "bf5301a327e4e1b510a29d8c11358e66319c4686"
 lazy = true
-os = "windows"
+libc = "glibc"
+os = "linux"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "50413da399713f866dfc51e491a97df9994f919d0b46b78e895ddfc9132c2055"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
+    sha256 = "9e3d1a4735533d52ec1ab29a433660472090beb8e58567dd8012eb6823359e65"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-i686-linux-gnu.tar.gz"
 [[libLLVM-extract_log]]
 arch = "i686"
-git-tree-sha1 = "68fc6173e441601f6c0f2ac2074682ddedfadbe4"
+git-tree-sha1 = "d9971be8703ad19c9e9778b34f348667ac1ffb81"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[libLLVM-extract_log.download]]
+    sha256 = "8499800614343bb1df47bb825dd95eb3a27d54efa1345669021a6427d8141943"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-i686-linux-musl.tar.gz"
+[[libLLVM-extract_log]]
+arch = "i686"
+git-tree-sha1 = "1fb0455cbadf2c864cd56bcb0ef7a8c1350498b7"
 lazy = true
 os = "windows"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "e3314732134e2ec68ae14a13735a62a38551a5812e2e89851f4b95a074dc9c43"
+    sha256 = "14e313f394015a2c5db11321401b4b1c4786633cffedf5a2f303550771692847"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-i686-w64-mingw32.tar.gz"
 [[libLLVM-extract_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "aedd29779a9b6dae1bae74cb7af4a0278f0d9f9f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libLLVM-extract_log.download]]
+    sha256 = "b40cde92a32ca1e739bce7bbb495443d125adf60d91fca8da7d6ec4a38d810bd"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
+[[libLLVM-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "a5702cc311a7b358b95797a9aa5fd516d964d3c7"
+git-tree-sha1 = "42154ff447201813d8d09153552fee92801c3c64"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "42ede7a478c39ab0b8602ccb3a40b2ea7beeb1ee70186a6522ba4f0a66022975"
+    sha256 = "592d67c83ff819105cf4aeb4b92e3473769767846c5b68561b66b9353df237c2"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-apple-darwin20.tar.gz"
 [[libLLVM-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "2be142a007d28c156c01f308235790fad3b742a8"
+arch = "x86_64"
+git-tree-sha1 = "b9e6f2f1357fd72b09a77d6ab2679a7f5093c9d6"
 lazy = true
-os = "macos"
-os_version = "20.0.0"
+libc = "glibc"
+os = "linux"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "fb631191d34d635ac3a58e0b203e012dcbf6595059f023ad3c88567f7f38dfe1"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
+    sha256 = "0de3bd03d79866e48cdffaab452e961f91890f8acc265efc778405c2a769462a"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 [[libLLVM-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "636dccdb818b4099a96fe93f53ab48e3a2484e70"
+git-tree-sha1 = "1a611745ede5ace9e8e24005136abd388545d764"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[libLLVM-extract_log.download]]
+    sha256 = "8f5fb4d7127da4a853dc52480f7c285332d5b7707c65ab4a67b8c9a9c5aec23a"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-linux-musl.tar.gz"
+[[libLLVM-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "b97fbb1894f6767687e8c826df996b25caec43ef"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "90cbae59c983845845a3d8a3e06d06578886ce75d850e177304d9f9d9ef15ede"
+    sha256 = "975cc074492376c22ce13dbae3489f509ffde53f349468f2406324e48f744618"
     url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
 [[libLLVM-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "12053162175cbd06644b69ed685bb0679d36c1d5"
+arch = "x86_64"
+git-tree-sha1 = "7358a234437d5fa54edcf6cc5fccde2df81e5403"
 lazy = true
-os = "freebsd"
-os_version = "14.1.0"
+os = "windows"
 
     [[libLLVM-extract_log.download]]
-    sha256 = "f13f3572e661b5cc1c92387152854c23937013ff9e76e9048179ed4d78fb6e38"
-    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
+    sha256 = "77fc5f5df5c3f357e0a673fc3d3cfc3dc572442ce9ea00942bbc7442a22bb740"
+    url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-w64-mingw32.tar.gz"

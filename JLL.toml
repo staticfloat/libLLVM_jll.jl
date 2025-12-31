@@ -21,17 +21,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:9569a99a5a0d064cd61d0f8e058cc960ed513c4d"
+    treehash = "sha1:32ed05134d7eb71847551c2d34746d709ee97633"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:a3be7de050c3c7eb66cdb31a481e494ad72f718449f6c15e72b6818eab699b44"
+        tarball_hash = "sha256:dd0862a28e72e655f9eefcdd5d3b5226034b9b34af83500fa3193f59510ef5d2"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:3af2cd56b066eb2cb3b156a1735b6d4c4fa9f4b3"
+    treehash = "sha1:b9e6f2f1357fd72b09a77d6ab2679a7f5093c9d6"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:663c6673aa3b6eb20fdd09a35fe1adf006a17f8dfa6b441253e5fd78435518f8"
+        tarball_hash = "sha256:0de3bd03d79866e48cdffaab452e961f91890f8acc265efc778405c2a769462a"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -46,7 +46,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -56,7 +56,7 @@ src_version = "17.0.6"
     treehash = "sha1:b4dcedc8ef2a0136edfa5e50a7b205e22b8f07ac"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:281b90dd08e74018dcaa1d318aab18218a1ce6af7f6b2f1742250f29ba76ec2c"
+        tarball_hash = "sha256:c5022b7f16dfcecabf7b500896703b5a1d5d95a798f1c21424bf5d4f7a98db14"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-linux-gnu.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -76,17 +76,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a7a96f696334991d3f9e6b609e4370df969c4a5e"
+    treehash = "sha1:e212a07704c9a3100a948283d5aaafe682894456"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:488167f41cb00864361d973a04c4c3132592b0f1af1438fc34cadb5cd37c81dc"
+        tarball_hash = "sha256:6ce46277276be9b7b91eae7084ee9346dda4036c5b73c10f934d4a420d20a6d8"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2162615a37b70337fe5862099e60d386e983f3a0"
+    treehash = "sha1:bf5301a327e4e1b510a29d8c11358e66319c4686"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:91ebf77f77328d4d7ba7f5446ece2feee3d2ec8c810a5d65e16aeba7c2831421"
+        tarball_hash = "sha256:9e3d1a4735533d52ec1ab29a433660472090beb8e58567dd8012eb6823359e65"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-i686-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -101,7 +101,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -111,7 +111,7 @@ src_version = "17.0.6"
     treehash = "sha1:24c429bc2cabd57210e63b1b669e22350ce31da7"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:4156f8dca2a3d5ccac268ed63ed2ce5678067d98a4d7ae73ed7e5299ddbf3061"
+        tarball_hash = "sha256:dd9d281f82bfc5a4fac321813e0d7d50b4a4f1f3fc10dea6284faf8ca235149f"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-i686-linux-gnu.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -131,17 +131,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0709ae5f1006dcfc70fa50951527c09a01f4fcd3"
+    treehash = "sha1:6d8b798cab7d611012ae406d538be85be4b116c0"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f372440189353fd6b0aa346de97f6c995a6b9392fb21e9a91305aa739ae07cbc"
+        tarball_hash = "sha256:ac8e5688d34435465f74bf9184fedcf258c7d96f8abc235e3fe99c6b26cb19f7"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a75d24802114eda6ad1430c33b7cdd94be2b09e3"
+    treehash = "sha1:788842c0148eea93966852fb0af950b423083bad"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:3cf3869de224c49e3c4ef6f74de69d4bd4e42c4ed9e992fe4767b4c5c3211233"
+        tarball_hash = "sha256:8229857e82d284c9681034c17aa37cecb1e4c809112f2b836edc236ecba8eee4"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -156,7 +156,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -166,8 +166,63 @@ src_version = "17.0.6"
     treehash = "sha1:62d16a6625efd1b4e6a4554fa05fb0a077253220"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:0582b9ee34a978415fdc862c39dd8a61a713d4a5e48c6161483fa19264eb5c33"
+        tarball_hash = "sha256:13cca4b4119678fdf65c915465a9446b8aa9ca426bb5f63344799a40f4d3a1a5"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-linux-gnu.tar.gz"
+[[builds]]
+name = "libLLVM"
+platform = "armv6l-linux-gnueabihf"
+lazy = "false"
+src_version = "17.0.6"
+
+    [[builds.licenses]]
+    license_text = """==============================================================================\nThe LLVM Project is under the Apache License v2.0 with LLVM Exceptions:\n==============================================================================\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n    APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n    Copyright [yyyy] [name of copyright owner]\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n\n---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into an Object form of such source code, you\nmay redistribute such embedded portions in such Object form without complying\nwith the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 (\"Combined Software\") and if a\ncourt of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of\nthe License, but only in their entirety and only with respect to the Combined\nSoftware.\n\n==============================================================================\nSoftware from third parties included in the LLVM Project:\n==============================================================================\nThe LLVM Project contains third party software which is under different license\nterms. All such code will be identified clearly using at least one of two\nmechanisms:\n1) It will be in a separate directory tree with its own `LICENSE.txt` or\n   `LICENSE` file at the top containing the specific license and restrictions\n   which apply to that software, or\n2) It will contain specific license and restriction terms at the top of every\n   file.\n\n==============================================================================\nLegacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2019 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n"""
+    filename = "LICENSE.TXT"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:78972921448c3dd36c532126964073d69185cc8b"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:4636cedad24c922e2fb2acd5ec3323fdaec11da3c72b86ed4eb5d08a15c0b215"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:4833c1e5add0ff455cc407338fcc2e2bef86285f"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:958d1ccaa9ea1579109c468f9657d2cf495a3810fa8bfa8cda191e978e9dc951"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.products]]
+    deps = ["Zlib_jll.libz"]
+    name = "libLLVM"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libLLVM-17jl.so"
+    type = "library"
+    path = "lib/libLLVM-17jl.so"
+
+    [[builds.sources]]
+    treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
+    url = "https://github.com/llvm/llvm-project.git"
+    [[builds.sources]]
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
+    [[builds.sources]]
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
+
+    [builds.artifact]
+    treehash = "sha1:176fa95c40cfbc76e9308e423a4492a0b2a03fac"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:f61e7ea1e9792f0e1acbcb2644d17a598df4a5ec6547cb8d531c26ea5a808dcc"
+        url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
 [[builds]]
 name = "libLLVM"
 platform = "armv7l-linux-gnueabihf"
@@ -186,17 +241,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c857b3d0d25acb60a34dcd77941ee1325ab9eb06"
+    treehash = "sha1:0c78c8736ebfd3fe117381aa668d84a80f4e93a2"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:7a5744cb7dfc327ae7dc00874c9210b46a346d2e46c2cc87f432e4edc7ea55e7"
+        tarball_hash = "sha256:449c92821e6b850fa0f23420b7589ae37f023fbf014eebb6497868c88615da69"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:97492fc79f7ad0c739acfe1b691ca3c71a49b05b"
+    treehash = "sha1:2d2c5ed6ab98c299f7db691400791b0a45dd0529"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e1c0f4475fb4cbd66f64b8c80012e027985230e90cd494788177c888492e7c3e"
+        tarball_hash = "sha256:f00d55d44a366e474f8db14f77d92bbd4bb6be4cf6807c358a9bb597ff31c600"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 
     [[builds.products]]
@@ -211,7 +266,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -221,7 +276,7 @@ src_version = "17.0.6"
     treehash = "sha1:880285e882563e74001749cae85ac922ce6c4c4a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ff9eba016541cb12e1f184f69393e54b3a04ec9998446fb8495f59bc971ef533"
+        tarball_hash = "sha256:c1735f06bc88d83ba086eba6cec8029dc04dd9c64fb8970fd19fe94b566c97e0"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -241,17 +296,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:49a8bb7b6795398e0a51bce67716c7064d4f7c99"
+    treehash = "sha1:783e730a4ff1fb55a0df2fad2f9ac423243b7ebf"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6e8f6d50460092e071d107d13ee55e1dbcc8c2b69ac0cd1302b74210d82b656d"
+        tarball_hash = "sha256:d8b4a730d1dadadd071cdd03efdf11c23fd7ae1d6c359a07fbf7b7fa56a1b781"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:16d223143d8f5cbd0d9e3520c25619ec9234068a"
+    treehash = "sha1:aedd29779a9b6dae1bae74cb7af4a0278f0d9f9f"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:78ca2bad577caa62dc16639b06ff665f8302c127994c30914803d1e409121a94"
+        tarball_hash = "sha256:b40cde92a32ca1e739bce7bbb495443d125adf60d91fca8da7d6ec4a38d810bd"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -266,7 +321,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -276,7 +331,7 @@ src_version = "17.0.6"
     treehash = "sha1:7406f70ff3a53b8c582aedd8b9035584172544a8"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:21c870563d5f344766661b2d34e49d2263207affaf37fb15b89d489226c8c90a"
+        tarball_hash = "sha256:8fe913002805f020fcd819fe636459e352763bb09238070a4acd119336da4bd5"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -296,17 +351,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0fa44025c003b10b78c4cea2e0319101da128da0"
+    treehash = "sha1:f2b68d599143aaa63aa729a0ee227bbb4de42f25"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:5b4b6621c457a7b891c3882dc93ae221689dc85a6ed9a7b3c46d4c67ac48a7d8"
+        tarball_hash = "sha256:14e0e693576a8d9f8d929c9c3be33127b41b3114a1c199cacaabd97dd13fd84f"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2aea02c174008c19d49fb5492860a583cb79d1fc"
+    treehash = "sha1:1a611745ede5ace9e8e24005136abd388545d764"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:1b8d1b28b3c18a9b61d3bb67e63091af4c1f05c3b788bdf3560fe6a84ee9b458"
+        tarball_hash = "sha256:8f5fb4d7127da4a853dc52480f7c285332d5b7707c65ab4a67b8c9a9c5aec23a"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-linux-musl.tar.gz"
 
     [[builds.products]]
@@ -321,7 +376,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -331,7 +386,7 @@ src_version = "17.0.6"
     treehash = "sha1:c09e266bb3964e5b53fa52643bba6e54689e2e59"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:3851241fe3b8064528b85ef57cf6351148ebf10d45fda4de3d6aeba53609d60e"
+        tarball_hash = "sha256:2fa8c417c858a5f7869d99d89847dcd9b6aecee1374ef86f25fc80f4e5b34d45"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-linux-musl.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -351,17 +406,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:9ed3475f205982c97348f42dc0f9b7c62dc8e768"
+    treehash = "sha1:588740afe589d46e8c2b60eb7e7634b7b6eb25d4"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:cf35acc9732d90d583821c6c27dd18f72d9ad72d8dab89c5a09ec4ed3271dfef"
+        tarball_hash = "sha256:9c1246d77d5184a0de954cb3174afc5705653a8c8884997569146dffc2549307"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:aad8ce70d38f485555042131f99687bf89e9a587"
+    treehash = "sha1:d9971be8703ad19c9e9778b34f348667ac1ffb81"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f8d297c316adbac06165bc9fae3036b5c8a10166f4786041cd78a7d53c846845"
+        tarball_hash = "sha256:8499800614343bb1df47bb825dd95eb3a27d54efa1345669021a6427d8141943"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-i686-linux-musl.tar.gz"
 
     [[builds.products]]
@@ -376,7 +431,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -386,7 +441,7 @@ src_version = "17.0.6"
     treehash = "sha1:a93e0c608dfe3dd7ebffbe102bbf6085f39e476a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:32a3ad457ea5b19275c5d0ba1c0fe0d83d88a6212ea18d6e274834da3d98d0d5"
+        tarball_hash = "sha256:abdfcc378de06208ef7fefb7a49f7f81cb17e4c57e7c1c43429eb71620e62b62"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-i686-linux-musl.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -406,17 +461,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:70dd3149e52ebdf65f96f455032a0acddcfed9c2"
+    treehash = "sha1:7f7c3891a342521fae6c5ae1d269ac1613ead96c"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:7fc00af55ee4fe572eb64bbf736a5d798e50d6760be0652b7118bd0250c2ac49"
+        tarball_hash = "sha256:30999d739120fda9777e708c83049dbc277d1ad3efa627e428e373573d535c9d"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:917a83bceae606d4113d986705f6dc37299409e9"
+    treehash = "sha1:2e12a361da953dfbe8e9ac5b66381bde63c42e2b"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4d16d4a81e93ca9d1bc2c4a19a68fbb387aa19902451d3e7c1bc33fa364f1564"
+        tarball_hash = "sha256:be64e892fa380eab033a8390986e9d861513bb654217c0c19ad60a7b71a71064"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-linux-musl.tar.gz"
 
     [[builds.products]]
@@ -431,7 +486,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -441,7 +496,7 @@ src_version = "17.0.6"
     treehash = "sha1:a4c679bf022fb2cd9f722db7c9bddbaa5597f3a6"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:a3e2d3b15adbe2af17a2c1bad9a55563c0974a5df3c4be4d488fcaca7a55a9d1"
+        tarball_hash = "sha256:7c4a84430827d8bfef76538818c5b9c32d0aaa759f194df7b99b9d64d0daa389"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-linux-musl.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -461,17 +516,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:66c6b1318056a9cb90e9526273432c06f8cb5a9a"
+    treehash = "sha1:0b9cf404f56ed32b0ebe50ae18a6181aa0a726fb"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:e9a904a81a503365bb6ee79ae0496be5bb3ee2e4e7534137cd6dddbc1cbdc50e"
+        tarball_hash = "sha256:53e4f55b6ed1643f49e3f0d026a0993c650cb8ad34bf15930c8aa75c04c9fb70"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:aba44ada7d0e107d9358ef43a9811d86f1c735c9"
+    treehash = "sha1:d32c8238cb87076b6584f98c84fe7fd66d782ee4"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:6d5b9f0d6afdf83e4343949d62e692af6a332f983cca1b96ca3e0c673ad3f826"
+        tarball_hash = "sha256:1bc61fb4d6aa2f9669ba0897057ebcc9e33314162942ba61d83f57ba675417ad"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 
     [[builds.products]]
@@ -486,7 +541,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -496,7 +551,7 @@ src_version = "17.0.6"
     treehash = "sha1:2c2a5ea588247b33b59cfdc54c4b1059ded84e9c"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:c2349ae8e9ce32ebefbf2f019f93822330045c96c987119ace31208374ba5381"
+        tarball_hash = "sha256:4fa759b77d3e54397024f02470c14afc5f2dd7e49f3b154c1f64df8af3c3f1c8"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -516,17 +571,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:5da148c93733e936904432747a415cc9e3c12f8e"
+    treehash = "sha1:eb9fc08f689eb5f53772b634e797990f69764b3e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6aa0f6dbaf82260757f6071576c32dc558d4f15e387447d6a10fe8fcc29aab56"
+        tarball_hash = "sha256:fbb6786684014b1333a1c057e6d4495dee03e160d868de78d27cb8848fcbff27"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:35c5c7cbc5a2176967305e9a2f100bc2c98b48a7"
+    treehash = "sha1:d388746fc69d477cad710c4a5904422ae244979a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b65558045d3ffb690ce305137aee5b28a69cafa2a28da1d857d578d332573a92"
+        tarball_hash = "sha256:adf28b1567f4adb6016beb021743b0852ca5c3a1cad488d019a19e9c2bdd0ad6"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 
     [[builds.products]]
@@ -541,7 +596,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -551,7 +606,7 @@ src_version = "17.0.6"
     treehash = "sha1:ab08bb23b1897d9d628fe239391af8f1d9b0c8a2"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:bc5c6b34a5f699df389924f8d4f40fbce10b04d280616d79999694bf512bf26c"
+        tarball_hash = "sha256:bd368244b97083e24e21d26e3a7957eda26deb9a796fcfceaedcc8f30565f419"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -571,17 +626,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:383ef8e43849bba9a8d84e4522438f29e4ff1232"
+    treehash = "sha1:1b29d654e54bfce55be77d76be477aa0223e7cba"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:650f98b02067eea7585584751d2bd4dd33db7cbd74b74606451b411e2185e3e8"
+        tarball_hash = "sha256:697ab5be2a64429d6da910928f9e55a77b4d844f1e7d9adf6547933b82c7c9e0"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:7c318b6127bb7066acd9e27f00ab83242c86e428"
+    treehash = "sha1:7358a234437d5fa54edcf6cc5fccde2df81e5403"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:50413da399713f866dfc51e491a97df9994f919d0b46b78e895ddfc9132c2055"
+        tarball_hash = "sha256:77fc5f5df5c3f357e0a673fc3d3cfc3dc572442ce9ea00942bbc7442a22bb740"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
 
     [[builds.products]]
@@ -596,7 +651,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -606,7 +661,7 @@ src_version = "17.0.6"
     treehash = "sha1:388490b93bc5f9453c55a61b81f90884ca1aa040"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ce6bae12e0742ef4ac463bf3abca333d060f20d076f79495820b4e667481298d"
+        tarball_hash = "sha256:e67d7ec9632223676b3e7bd9e28318eb10cc29eacb4ca8e324f06e73b5186ff4"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-w64-mingw32.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -626,17 +681,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7bb61d180946f0bde8cc1625b340a5888346df0e"
+    treehash = "sha1:7767250d7fd6c596565a013f7f345be59f6833a9"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:63ebb7b7fb4d4c96d41601d8691fe64237e9ede06e1dd5bd9b4114d71c0e4cdb"
+        tarball_hash = "sha256:9b74133382dd7071ff8b3de19c6512169cbd665c6e3403ef8cc5f7f11f334d9b"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-i686-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:68fc6173e441601f6c0f2ac2074682ddedfadbe4"
+    treehash = "sha1:1fb0455cbadf2c864cd56bcb0ef7a8c1350498b7"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e3314732134e2ec68ae14a13735a62a38551a5812e2e89851f4b95a074dc9c43"
+        tarball_hash = "sha256:14e313f394015a2c5db11321401b4b1c4786633cffedf5a2f303550771692847"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-i686-w64-mingw32.tar.gz"
 
     [[builds.products]]
@@ -651,7 +706,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -661,7 +716,7 @@ src_version = "17.0.6"
     treehash = "sha1:ddd8e20f9e981005e1fb5dc323b79cf475ea5a56"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:1f80db01f334454a46f848ac7caa55033f1588cd8a1a34b0b1df138e923cbf41"
+        tarball_hash = "sha256:af4fa3b99c039bd29eac857126664b26baf98be367dfe703355749677843ead5"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-i686-w64-mingw32.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -681,17 +736,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:38f6f2bc39f99ad240164aa7949fe9b2b8470639"
+    treehash = "sha1:d3dde4f04781787f32d5b44906169683e0522a54"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d7d31bb20dfeabf9db2584ce9f4cf47617ea074f1a4ee30a16af229fe2f4ef73"
+        tarball_hash = "sha256:6f14f4796e34446c8e6e6b4e0e75127b59de7f2f2a20fcab0c1a4a003e17d864"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-apple-darwin20.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a5702cc311a7b358b95797a9aa5fd516d964d3c7"
+    treehash = "sha1:42154ff447201813d8d09153552fee92801c3c64"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:42ede7a478c39ab0b8602ccb3a40b2ea7beeb1ee70186a6522ba4f0a66022975"
+        tarball_hash = "sha256:592d67c83ff819105cf4aeb4b92e3473769767846c5b68561b66b9353df237c2"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-apple-darwin20.tar.gz"
 
     [[builds.products]]
@@ -706,7 +761,7 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
@@ -716,7 +771,7 @@ src_version = "17.0.6"
     treehash = "sha1:95771c5d38e7c7930aed2619176648440c7a6d51"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:a2d3594e2a301ab58e23e7b47c3add40378ff193d891ba50e4593d9ea5b37fd1"
+        tarball_hash = "sha256:6347363c408aa06b452e715caf8f04b1c3acf8eaa1d68b644f7f0e7228e27cae"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-apple-darwin20.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -736,17 +791,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:04d41f4a23f6dae60fe8eaa5073fdef07183ad25"
+    treehash = "sha1:bb5f18674842a1fbe651aa0a167f81eb70fa0d46"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:3451c314647aa82875c53226c8aeacf06a1577aecabac2041cc1fe545ef045ad"
+        tarball_hash = "sha256:3985520413aea72889a7e2433398deb6a469b397ac138aae243874a75a683642"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2be142a007d28c156c01f308235790fad3b742a8"
+    treehash = "sha1:3eb45db8861a7b707883f0dc896b64e6a99c9c47"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fb631191d34d635ac3a58e0b203e012dcbf6595059f023ad3c88567f7f38dfe1"
+        tarball_hash = "sha256:edded368dc69f3b7255a9ce09171af0b8051bf0e526030d4dd9b4a60c45c65c8"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
 
     [[builds.products]]
@@ -761,17 +816,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:f31224986b96965ccb58e04ed9e18d02781d26d7"
+    treehash = "sha1:25efaa58d1df31073088b294f9be0f255a1e9444"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:d51556dbbc6bd14fe6e9e9c6172b068b289478c8280f04f7026d457a86839d69"
+        tarball_hash = "sha256:0c089ee8696825a441c66bb8bd549f0c6572ba740b6676552dd666edec8e9374"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-apple-darwin20.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -791,17 +846,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:4264e8371f61ebf42690b8d1b8569d7201036f6b"
+    treehash = "sha1:6727b7a2c744190bbb40aea7a65f7a43d8fde053"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:37e8ecfa941e54fc95a9de96249dddad02c9406c352c70ede4fd3f8eddd1655b"
+        tarball_hash = "sha256:3f685a8f07109075a148702023175d4a1e2ade395839c30f9fd8503938578eb0"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:636dccdb818b4099a96fe93f53ab48e3a2484e70"
+    treehash = "sha1:b97fbb1894f6767687e8c826df996b25caec43ef"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:90cbae59c983845845a3d8a3e06d06578886ce75d850e177304d9f9d9ef15ede"
+        tarball_hash = "sha256:975cc074492376c22ce13dbae3489f509ffde53f349468f2406324e48f744618"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
 
     [[builds.products]]
@@ -816,17 +871,17 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:53aedf30fbb2402c629df39ccac931d2e6849954"
+    treehash = "sha1:8e18525faa4f1cbe9becf3eddb79e85d7eedc8ed"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:7e3899600217e8dac110dbd957adc6f4f38bee61535e8029099748d62c7bf9c9"
+        tarball_hash = "sha256:46bdeaef4b452fee555e8056cb5fc676f0108fc85e11097640242f32119808da"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
 [[builds]]
 name = "libLLVM"
@@ -846,17 +901,17 @@ src_version = "17.0.6"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:307b4b7bfcd37be27736d19a1fb0b95cb9865f32"
+    treehash = "sha1:a372d075aa0d090764a6718e6df16eef073e0483"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8f421e4cbfafa9a8972943e577eefdca0fe4928b31bd5dc936138703338b344d"
+        tarball_hash = "sha256:160deb56909cc571b08bd4046d10dfb18611b2f16f0bf3ea4db6c59548b16369"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-build_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:12053162175cbd06644b69ed685bb0679d36c1d5"
+    treehash = "sha1:d842236955779133fbbbcb71891b3fdd96e4f187"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f13f3572e661b5cc1c92387152854c23937013ff9e76e9048179ed4d78fb6e38"
+        tarball_hash = "sha256:feff89261a2f8c178cce0ee441b5e417c7ea2944bc37142a2669ed2f2d20a93e"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-extract_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
 
     [[builds.products]]
@@ -871,15 +926,15 @@ src_version = "17.0.6"
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
     url = "https://github.com/llvm/llvm-project.git"
     [[builds.sources]]
-    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
     [[builds.sources]]
     treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:b97878a20f28993a0773bf5860c78fdb6f6d6ee4"
+    treehash = "sha1:7acb8cc7c331779da74cd87a3201976e7b043d75"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e3017fcf183aa26882e9752e5de691b0e250054b2b4dc46666713ba3c608df6a"
+        tarball_hash = "sha256:a816217876047fab3360fcc51b7d5465f1e5ddaf8cdd4929c7477e6422aa7d51"
         url = "https://github.com/staticfloat/libLLVM_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/libLLVM-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
